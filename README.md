@@ -1,5 +1,5 @@
-# datavisual
-
+# 可视化
+大屏看板
 ## Project setup
 ```
 npm install
