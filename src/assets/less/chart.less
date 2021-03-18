@@ -1,0 +1,40 @@
+.map-chart,.map-chart_copy{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .charts{
+        height: 100%;
+        width: 100%;
+    }
+    .mapData-type{
+        position: absolute;
+        top: 6%;
+        right: 6%;
+        div{
+            width: 100px;
+            height: 42px;
+            line-height: 42px;
+            font-size:20px;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            margin-bottom: 5px;
+            cursor: pointer;
+            color:rgba(255,255,255,1);
+            background: url('../image/type_unselect.png') center no-repeat;
+        }
+        .active{
+            color:rgba(58,255,236,1);
+            background-image: url('../image/type_select.png');
+        }
+    }
+    .back{
+        position: absolute;
+        transition: all .5s;
+        top: 80px;
+        left: 100px;
+        height: 32px;
+        width: 32px;
+        background: url('../image/back.png') center no-repeat;
+        cursor: pointer;
+    }
+}
