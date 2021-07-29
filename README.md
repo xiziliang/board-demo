@@ -4,6 +4,8 @@
 ```
 npm install
 ```
+### 示例
+[点击查看](https://www.baidu.com).
 
 ### Compiles and hot-reloads for development
 ```
